@@ -6,7 +6,7 @@ const App = () => {
 
     return (
         <div className={classNames('app')}>
-            Buy
+            Рассчитайте стоимость автомобиля в лизинг
         </div>
     );
 };

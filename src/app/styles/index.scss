@@ -3,7 +3,13 @@
 
 
 .app {
-  font: var(--font-m);
+  font-family: "Gilroy", serif;
+
+  font-weight: 900;
+
+  font-size: 54px;
+
+  line-height: 48.6px;
 
   background: var(--bg-color);
   color: var(--primary-color);
