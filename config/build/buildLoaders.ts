@@ -5,7 +5,7 @@ import {BuildOptions} from './types/config';
 export function buildLoaders({isDev}: BuildOptions): RuleSetRule[] {
 
     const fileLoader = {
-        test: /\.(png|jpe?g|gif|woff(2)?|ttf|eot)$/i,
+        test: /\.(png|jpe?g|gif|woff2|woff)$/i,
         use: [
             {
                 loader: 'file-loader',
@@ -14,7 +14,7 @@ export function buildLoaders({isDev}: BuildOptions): RuleSetRule[] {
     }
 
     const cssLoader = {
-        test: /\.s[ac]ss$/i,
+        test: /\.(sass|css|scss)$/,
         use: [
             isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
             {

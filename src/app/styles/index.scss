@@ -1,18 +1,15 @@
-@import "variables/global";
+@import "./variables/global";
 @import "reset";
-
+@import url("../fonts/Nekst/stylesheet.css");
+@import url("../fonts/Gilroy/stylesheet.css");
 
 .app {
-  font-family: "Gilroy", serif;
-
-  font-weight: 900;
-
-  font-size: 54px;
-
-  line-height: 48.6px;
-
-  background: var(--bg-color);
-  color: var(--primary-color);
-
   min-height: 100vh;
+  padding: 50px;
+}
+
+.header {
+  font: var(--font-l);
+  width: 753px;
+  margin-bottom: 32px;
 }
