@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/index.scss';
-import {classNames} from 'shared';
-import {CalculatorList} from 'widgets/CalculatorList';
+import {classNames} from 'helpers';
+import {CalculatorList} from 'components';
 
 const App = () => {
     return (

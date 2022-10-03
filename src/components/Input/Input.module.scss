@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input {
+  padding: 16px 24px;
+  background: #F3F3F4;
+  border-radius: 16px;
+  border: none;
+  width: 427px;
+  height: 68px;
+  outline: none;
+  font: var(--font-m);
+}
+
+.label {
+  margin-bottom: 24px;
+  font: var(--font-secondary);
+}
+
+.percent {
+  position: absolute;
+  font: var(--font-s);
+  background: #EBEBEC;
+  border-radius: 16px;
+  width: 69px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 7px;
+  bottom: 7px;
+}

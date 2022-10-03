@@ -1,28 +1,31 @@
-import {classNames} from 'shared';
 import classes from './Calculator.module.scss';
-import {Input, Range} from 'shared/ui';
-import {ChangeEvent, useState, KeyboardEvent, useEffect} from 'react';
+import {ChangeEvent, KeyboardEvent, useEffect, useState} from 'react';
+import {Input, Range} from 'components';
+import {classNames} from 'helpers';
 
 interface CalculatorProps {
     label: string;
-    defaultValue: number;
+    value: number[];
+    setValue: (value: number[]) => void;
     maxValue: number;
     minValue: number;
+    isInitial: boolean;
+    price?: number;
 }
 
 export const Calculator = (props: CalculatorProps) => {
 
     const {
+        price,
+        isInitial,
+        setValue,
         label,
         minValue,
         maxValue,
-        defaultValue
+        value
     } = props;
 
-    const [rangeValue, setRangeValue] = useState([defaultValue]);
-    const [inputValue, setInputValue] = useState(String(defaultValue));
-
-    console.log(inputValue);
+    const [inputValue, setInputValue] = useState(String(value[0]));
 
     const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const formattedValue = e.currentTarget.value.split(' ').join('');
@@ -33,19 +36,22 @@ export const Calculator = (props: CalculatorProps) => {
         const value = Number(inputValue);
 
         if (e.key === 'Enter' && value) {
-            if (value <= maxValue && value >= minValue) setRangeValue([value]);
-            if (value > maxValue) setRangeValue([maxValue]);
-            if (value < minValue) setRangeValue([minValue]);
+            if (value <= maxValue && value >= minValue) setValue([value]);
+            if (value > maxValue) setValue([maxValue]);
+            if (value < minValue) setValue([minValue]);
         }
     };
 
     useEffect(() => {
-        setInputValue(String(rangeValue[0]));
-    }, [rangeValue]);
+        const newValue = isInitial ? (price * value[0]) / 100 : value[0];
+        setInputValue(String(newValue.toFixed()));
+    }, [value, price]);
 
     return (
         <div className={classNames(classes.calculator)}>
             <Input
+                percent={isInitial ? value[0] : null}
+                isInitial={isInitial}
                 label={label}
                 value={inputValue}
                 onChange={handleChange}
@@ -54,8 +60,8 @@ export const Calculator = (props: CalculatorProps) => {
             <Range
                 maxValue={maxValue}
                 minValue={minValue}
-                value={rangeValue}
-                setValue={setRangeValue}
+                value={value}
+                setValue={setValue}
             />
         </div>
     );
