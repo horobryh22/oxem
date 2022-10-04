@@ -20,6 +20,8 @@ export const Input = (props: InputProps) => {
         ...restProps
     } = props;
 
+    const formattedValue = value.replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+
     return (
         <div className={classes.wrapper}>
             <label
@@ -30,7 +32,7 @@ export const Input = (props: InputProps) => {
             </label>
             <input
                 {...restProps}
-                value={value.replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}
+                value={formattedValue}
                 id="input"
                 className={classNames(classes.input)}
             />

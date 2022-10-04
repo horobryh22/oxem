@@ -1,4 +1,6 @@
 :root {
+
+  //fonts
   --font-family-main: "Nekst", sans-serif;
   --font-family-secondary: "Gilroy", sans-serif;
 
@@ -21,5 +23,12 @@
   --font-weight-secondary: 400;
   --font-secondary: var(--font-weight-secondary) var(--font-size-secondary) / var(--font-line-secondary) var(--font-family-secondary);
 
+
+  // colors
   --primary-color: #FF9514;
+
+  --button-font-color:  #FFFFFF;
+  --button-hover-color: #111111;
+  --button-pressed-color: #575757;
+  --button-disabled-color: rgba(255, 149, 20, 0.4);
 }
