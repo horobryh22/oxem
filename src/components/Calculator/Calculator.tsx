@@ -11,6 +11,7 @@ interface CalculatorProps {
     minValue: number;
     isInitial: boolean;
     price?: number;
+    isLoading: boolean;
 }
 
 export const Calculator = (props: CalculatorProps) => {
@@ -22,7 +23,8 @@ export const Calculator = (props: CalculatorProps) => {
         label,
         minValue,
         maxValue,
-        value
+        value,
+        isLoading
     } = props;
 
     const [inputValue, setInputValue] = useState(String(value[0]));
@@ -40,6 +42,7 @@ export const Calculator = (props: CalculatorProps) => {
             if (value > maxValue) setValue([maxValue]);
             if (value < minValue) setValue([minValue]);
         }
+
     };
 
     useEffect(() => {
@@ -50,6 +53,8 @@ export const Calculator = (props: CalculatorProps) => {
     return (
         <div className={classNames(classes.calculator)}>
             <Input
+                readOnly={isInitial}
+                disabled={isLoading}
                 percent={isInitial ? value[0] : null}
                 isInitial={isInitial}
                 label={label}
@@ -58,6 +63,7 @@ export const Calculator = (props: CalculatorProps) => {
                 onKeyDown={handleKeyDown}
             />
             <Range
+                disabled={isLoading}
                 maxValue={maxValue}
                 minValue={minValue}
                 value={value}

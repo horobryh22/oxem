@@ -6,6 +6,7 @@ interface RangeProps {
     minValue: number;
     value: number[]
     setValue: (value: number[]) => void;
+    disabled: boolean;
 }
 
 export const Range = (props: RangeProps) => {
@@ -14,7 +15,8 @@ export const Range = (props: RangeProps) => {
         value,
         setValue,
         minValue,
-        maxValue
+        maxValue,
+        disabled
     } = props;
 
     return (
@@ -23,6 +25,7 @@ export const Range = (props: RangeProps) => {
             min={minValue}
             max={maxValue}
             values={value}
+            disabled={disabled}
             onChange={(values) => setValue(values)}
             renderTrack={({props, children}) => (
                 <div
@@ -32,6 +35,7 @@ export const Range = (props: RangeProps) => {
                     <div
                         ref={props.ref}
                         style={{
+                            opacity: disabled ? 0.5 : 1,
                             height: '2px',
                             width: '379px',
                             background: getTrackBackground({

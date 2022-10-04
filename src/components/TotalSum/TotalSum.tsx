@@ -15,7 +15,7 @@ export const TotalSum = (props: TotalSumProps) => {
     return (
         <div className={classNames(classes.totalSum)}>
             <h4 className={classNames(classes.label)}>{label}</h4>
-            <h3 className={classNames(classes.subtitle)}>{formattedSum}</h3>
+            <h3 className={classNames(classes.subtitle)}>{`${formattedSum} Р`}</h3>
         </div>
     );
 };

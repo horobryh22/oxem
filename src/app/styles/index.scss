@@ -5,7 +5,7 @@
 
 .app {
   min-height: 100vh;
-  padding: 50px;
+  padding: 150px 50px;
 }
 
 .header {
@@ -15,6 +15,13 @@
 }
 
 .calculator-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+.bottom-part {
   display: flex;
   align-items: center;
   justify-content: space-between;

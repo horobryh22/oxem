@@ -1,0 +1,1 @@
+export {dataAPI} from './data/dataAPI';

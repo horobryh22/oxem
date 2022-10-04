@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.disabled {
+  opacity: 0.5;
+}
+
 .input {
   padding: 16px 24px;
   background: #F3F3F4;
@@ -32,4 +36,11 @@
   justify-content: center;
   right: 7px;
   bottom: 7px;
+}
+
+.letter {
+  position: absolute;
+  font: var(--font-m);
+  right: 24px;
+  bottom: 16px;
 }
