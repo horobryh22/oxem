@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve && node server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public",
     "build": "webpack --env mode=production"
