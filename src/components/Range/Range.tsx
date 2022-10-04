@@ -1,5 +1,7 @@
 import * as React from 'react';
 import {getTrackBackground, Range as ReactRange} from 'react-range';
+import classes from './Range.module.scss';
+import {classNames} from 'helpers';
 
 interface RangeProps {
     maxValue: number;
@@ -31,20 +33,19 @@ export const Range = (props: RangeProps) => {
                 <div
                     onMouseDown={props.onMouseDown}
                     onTouchStart={props.onTouchStart}
+                    style={{width: '90%'}}
                 >
                     <div
                         ref={props.ref}
+                        className={classNames(classes.track)}
                         style={{
                             opacity: disabled ? 0.5 : 1,
-                            height: '2px',
-                            width: '379px',
                             background: getTrackBackground({
                                 values: value,
                                 colors: ['#FF9514', '#E1E1E1'],
                                 min: minValue,
                                 max: maxValue
                             }),
-                            alignSelf: 'center'
                         }}
                     >
                         {children}
@@ -54,13 +55,9 @@ export const Range = (props: RangeProps) => {
             renderThumb={({props}) => (
                 <div
                     {...props}
+                    className={classNames(classes.thumb)}
                     style={{
                         ...props.style,
-                        height: '20px',
-                        width: '20px',
-                        border: 0,
-                        borderRadius: 50,
-                        backgroundColor: '#FF9514'
                     }}
                 />
             )}

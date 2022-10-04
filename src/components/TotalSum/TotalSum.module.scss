@@ -6,3 +6,25 @@
 .subtitle {
     font: var(--font-l);
 }
+
+/* Media queries */
+@media screen and (max-width: 1400px) {
+    .totalSum {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .totalSum {
+        margin-right: 40px;
+        margin-bottom: 29px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .subtitle {
+        font: var(--font-m);
+    }
+}
+
+

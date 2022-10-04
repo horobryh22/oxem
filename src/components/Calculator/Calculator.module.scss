@@ -5,3 +5,12 @@
   flex-direction: column;
   align-items: center;
 }
+
+/* Media queries */
+@media screen and (max-width: 1400px) {
+  .calculator {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+}

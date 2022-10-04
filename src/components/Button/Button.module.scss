@@ -26,3 +26,17 @@
     background: var(--button-disabled-color);
   }
 }
+
+/* Media queries */
+@media screen and (max-width: 1400px) {
+  .button {
+    margin-top: 44px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button {
+    margin-top: 44px;
+    font: var(--font-s);
+  }
+}

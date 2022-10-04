@@ -44,3 +44,37 @@
   right: 24px;
   bottom: 16px;
 }
+
+/* Media queries */
+@media screen and (max-width: 1400px) {
+  .wrapper {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .percent {
+    font: var(--font-s)
+  }
+
+  .letter {
+    font: var(--font-s)
+  }
+
+  .input {
+    font: var(--font-s);
+  }
+}
