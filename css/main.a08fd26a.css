@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'Nekst Semi';
+    src: url(/oxem/533603ee27c76da054e7.eot);
+    src: local('Nekst Semi Bold'), local('Nekst-SemiBold'),
+        url(/oxem/533603ee27c76da054e7.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/cde989ae772854974350.woff2) format('woff2'),
+        url(/oxem/f634a3e48e82b6b3cb34.woff) format('woff'),
+        url(/oxem/c921731d03bd659e3971.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url(/oxem/900fc0b6325357408aa3.eot);
+    src: local('Nekst'), local('Nekst-Regular'),
+        url(/oxem/900fc0b6325357408aa3.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/650c0c4f83eccc18a3c6.woff2) format('woff2'),
+        url(/oxem/60166527a7e8092bc924.woff) format('woff'),
+        url(/oxem/ec8e40c2d276f13999f7.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url(/oxem/5fc4621c869412e7e801.eot);
+    src: local('Nekst Black'), local('Nekst-Black'),
+        url(/oxem/5fc4621c869412e7e801.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/a0965af8c0a3ead1adb5.woff2) format('woff2'),
+        url(/oxem/2a5a07b2bf60a69e341d.woff) format('woff'),
+        url(/oxem/dffaebf93d38d4c41536.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url(/oxem/252b8c9b976b4d2184f2.eot);
+    src: local('Nekst Thin'), local('Nekst-Thin'),
+        url(/oxem/252b8c9b976b4d2184f2.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/1b0b726580e9653993dc.woff2) format('woff2'),
+        url(/oxem/cd371f5cbbef855a610e.woff) format('woff'),
+        url(/oxem/0cb8d57831ce402cc7b9.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url(/oxem/753a7c4c084c718c0281.eot);
+    src: local('Nekst Bold'), local('Nekst-Bold'),
+        url(/oxem/753a7c4c084c718c0281.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/644575dc641103e272d6.woff2) format('woff2'),
+        url(/oxem/85b2be4c9fbe8b7184f8.woff) format('woff'),
+        url(/oxem/cab6338caaec418b8de9.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url(/oxem/6ff08a5e4d50dd37f4de.eot);
+    src: local('Nekst Medium'), local('Nekst-Medium'),
+        url(/oxem/6ff08a5e4d50dd37f4de.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/edd3cadd6bb17e57ce88.woff2) format('woff2'),
+        url(/oxem/ed4f4ed9a2789a77ac2d.woff) format('woff'),
+        url(/oxem/a844f4b7f64a4a98879e.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url(/oxem/af60ed6e5060ccf42345.eot);
+    src: local('Nekst Light'), local('Nekst-Light'),
+        url(/oxem/af60ed6e5060ccf42345.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/2ebe3affb7f0813a3efd.woff2) format('woff2'),
+        url(/oxem/a1754bf2f5074272619f.woff) format('woff'),
+        url(/oxem/ce9a2b6fcaf43b4756b9.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/19055ba082a9f78262f6.eot);
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url(/oxem/19055ba082a9f78262f6.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/6f49f8aa473b2868f588.woff2) format('woff2'),
+        url(/oxem/a78e7b73d7d1e8278156.woff) format('woff'),
+        url(/oxem/fa652e766b6a85a1f9cb.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/d4bac2be67e19951f23d.eot);
+    src: local('Gilroy Extrabold Italic'), local('Gilroy-ExtraboldItalic'),
+        url(/oxem/d4bac2be67e19951f23d.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/92115f90b1c87a8a8dfd.woff2) format('woff2'),
+        url(/oxem/ee65f854469c2b944344.woff) format('woff'),
+        url(/oxem/465aa5d03dff4ec5094d.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/aa68c169bc1dc3db278e.eot);
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url(/oxem/aa68c169bc1dc3db278e.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/9c29c8b4cccb7eb4b80c.woff2) format('woff2'),
+        url(/oxem/58980a96fd3c487f4169.woff) format('woff'),
+        url(/oxem/901a60fc2835c74fba67.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/15c6a98fd3a28b1f71d4.eot);
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url(/oxem/15c6a98fd3a28b1f71d4.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/b9c0917dc0eda7b79aa6.woff2) format('woff2'),
+        url(/oxem/e6205e4033dcf2f6f1ed.woff) format('woff'),
+        url(/oxem/4628979a4dac24916ba7.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/f498309f9a88b0a4402b.eot);
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url(/oxem/f498309f9a88b0a4402b.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/d76c38d9bf802b5ccdd7.woff2) format('woff2'),
+        url(/oxem/71fba7acd06188e0dea4.woff) format('woff'),
+        url(/oxem/0ac7c2f9cb59ea1ba11c.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/54bc2f8147659c45a055.eot);
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url(/oxem/54bc2f8147659c45a055.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/13890bd43bee4155825b.woff2) format('woff2'),
+        url(/oxem/19edc91378282fe121df.woff) format('woff'),
+        url(/oxem/41fa36c3c8e966b35423.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/2fea647f59b209f411b1.eot);
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url(/oxem/2fea647f59b209f411b1.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/70b15b38b1c3ac3472a8.woff2) format('woff2'),
+        url(/oxem/18ff07e876fae816559a.woff) format('woff'),
+        url(/oxem/1c23f810e531d0702f76.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/2d3fcc2bacef440c65f6.eot);
+    src: local('Gilroy Medium Italic'), local('Gilroy-MediumItalic'),
+        url(/oxem/2d3fcc2bacef440c65f6.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/b42ae219507274787a78.woff2) format('woff2'),
+        url(/oxem/04facc9d4451b99165ae.woff) format('woff'),
+        url(/oxem/89dade8d917dd5318037.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/0c22099e2e812b31e190.eot);
+    src: local('Gilroy Black Italic'), local('Gilroy-BlackItalic'),
+        url(/oxem/0c22099e2e812b31e190.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/ea8a8e5d85d78edd310e.woff2) format('woff2'),
+        url(/oxem/1d5d75e858d8bec09849.woff) format('woff'),
+        url(/oxem/9d038b5d638246ddec64.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/69d9572880f4dc7b5030.eot);
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),
+        url(/oxem/69d9572880f4dc7b5030.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/5ec9342b86ae95639467.woff2) format('woff2'),
+        url(/oxem/86b114b0b316cb9c8e14.woff) format('woff'),
+        url(/oxem/6c356bf421a0b34d2b76.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/3b7071f6dca0c1e083a6.eot);
+    src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),
+        url(/oxem/3b7071f6dca0c1e083a6.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/cfb546af8132b5dec27d.woff2) format('woff2'),
+        url(/oxem/a50238f71be921c71054.woff) format('woff'),
+        url(/oxem/5f3ed3d83ee07d26cfdf.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/df9d884f45eb4c4bfa40.eot);
+    src: local('Gilroy Semibold Italic'), local('Gilroy-SemiboldItalic'),
+        url(/oxem/df9d884f45eb4c4bfa40.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/735cb02d2b1e9ca740c3.woff2) format('woff2'),
+        url(/oxem/59d6bc513d2068f167ea.woff) format('woff'),
+        url(/oxem/4d55ee19689866217144.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/df7d31c88613755f5587.eot);
+    src: local('Gilroy Heavy Italic'), local('Gilroy-HeavyItalic'),
+        url(/oxem/df7d31c88613755f5587.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/3cfc81b9df634bec1bfc.woff2) format('woff2'),
+        url(/oxem/9be0aacd491bf78a1536.woff) format('woff'),
+        url(/oxem/4e271337918ba3adf19f.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/35fe3e3eaadedba86260.eot);
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+        url(/oxem/35fe3e3eaadedba86260.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/aecc835f843ef241417b.woff2) format('woff2'),
+        url(/oxem/3d36c82e2ee2db393292.woff) format('woff'),
+        url(/oxem/92e435f7fae6070d73bb.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/59f5bb14ca6b8587b23a.eot);
+    src: local('Gilroy Bold Italic'), local('Gilroy-BoldItalic'),
+        url(/oxem/59f5bb14ca6b8587b23a.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/eef2061e3b2ce4101e96.woff2) format('woff2'),
+        url(/oxem/a83a06c6c32a4fd3e576.woff) format('woff'),
+        url(/oxem/244d410b6e64d3508107.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/a6fc8679f9d9bbc3e3a7.eot);
+    src: local('Gilroy UltraLight Italic'), local('Gilroy-UltraLightItalic'),
+        url(/oxem/a6fc8679f9d9bbc3e3a7.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/bd4f16e729dd66beb6c9.woff2) format('woff2'),
+        url(/oxem/557a52f7179a3866ffdd.woff) format('woff'),
+        url(/oxem/68a9a27f1aa1261013f3.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/8c6863c14c2a09aef7f2.eot);
+    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'),
+        url(/oxem/8c6863c14c2a09aef7f2.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/9cf1e9a2fcaeb54ae898.woff2) format('woff2'),
+        url(/oxem/0cddd391ddf23f11735f.woff) format('woff'),
+        url(/oxem/7b6800605c7db5758e74.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/d3e25fef9e40dc8173af.eot);
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url(/oxem/d3e25fef9e40dc8173af.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/634c20d523bd3b51d540.woff2) format('woff2'),
+        url(/oxem/252afe617063131d487e.woff) format('woff'),
+        url(/oxem/bf729a99bcad6fccc3f4.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/a479c0c1f98e90a6d9f5.eot);
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
+        url(/oxem/a479c0c1f98e90a6d9f5.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/0f806752d5ba449c43dc.woff2) format('woff2'),
+        url(/oxem/4754bcf82b7cf8cc521a.woff) format('woff'),
+        url(/oxem/fc813b757bc09eb509dc.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/oxem/cea6b0a2dc07f5b5e074.eot);
+    src: local('Gilroy Thin Italic'), local('Gilroy-ThinItalic'),
+        url(/oxem/cea6b0a2dc07f5b5e074.eot?#iefix) format('embedded-opentype'),
+        url(/oxem/8867693f2eb6a1c43fd8.woff2) format('woff2'),
+        url(/oxem/6dc61b3e9ebc173d96b1.woff) format('woff'),
+        url(/oxem/aa74839cb8a7e4237fa2.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+:root{--font-family-main: "Nekst", sans-serif;--font-family-secondary: "Gilroy", sans-serif;--font-weight-main: 900;--font-size-s: 20px;--font-line-s: 24px;--font-s: var(--font-weight-main) var(--font-size-s) / var(--font-line-s) var(--font-family-main);--font-size-m: 30px;--font-line-m: 36px;--font-m: var(--font-weight-main) var(--font-size-m) / var(--font-line-m) var(--font-family-main);--font-size-l: 54px;--font-line-l: 48.6px;--font-l: var(--font-weight-main) var(--font-size-l) / var(--font-line-l) var(--font-family-main);--font-size-secondary: 16px;--font-line-secondary: 20px;--font-weight-secondary: 400;--font-secondary: var(--font-weight-secondary) var(--font-size-secondary) / var(--font-line-secondary) var(--font-family-secondary);--primary-color: #FF9514;--button-font-color: #FFFFFF;--button-hover-color: #111111;--button-pressed-color: #575757;--button-disabled-color: rgba(255, 149, 20, 0.4)}*{margin:0;padding:0;box-sizing:border-box}input,button,textarea,select{margin:0;font:inherit}.app{min-height:100vh;padding:150px 50px}.header{font:var(--font-l);width:753px;margin-bottom:32px}.calculator-list{display:flex;align-items:center;justify-content:space-between;margin-bottom:44px}.bottom-part{display:flex;align-items:center;justify-content:space-between}@media screen and (max-width: 1400px){.calculator-list{flex-direction:column;align-items:flex-start;margin-bottom:37px}.bottom-part{flex-wrap:wrap;justify-content:space-between}}@media screen and (max-width: 1024px){.bottom-part{justify-content:flex-start}}@media screen and (max-width: 768px){.app{padding:50px 36px}.bottom-part{flex-wrap:wrap;justify-content:flex-start}}@media screen and (max-width: 690px){.header{width:100%}}@media screen and (max-width: 500px){.app{padding:50px 20px}.header{font:var(--font-m)}}
+.wVgxf8c0{position:relative;width:427px;display:flex;flex-direction:column;align-items:center}@media screen and (max-width: 1400px){.wVgxf8c0{width:100%;align-items:center;margin-bottom:32px}}
+.myBIB7cH{height:2px;width:100%;align-self:center}.ZA60IS0h{height:20px;width:20px;border:0;border-radius:50px;background-color:var(--primary-color)}
+.MJ_ybRP4{display:flex;flex-direction:column;position:relative}.AVbgsfHJ{opacity:.5}.GRggPQ1r{padding:16px 24px;background:#f3f3f4;border-radius:16px;border:none;width:427px;height:68px;outline:none;font:var(--font-m)}.rikV1QPN{margin-bottom:24px;font:var(--font-secondary)}.I_bSx2lz{position:absolute;font:var(--font-s);background:#ebebec;border-radius:16px;width:69px;height:54px;display:flex;align-items:center;justify-content:center;right:7px;bottom:7px}.kczfzBpH{position:absolute;font:var(--font-m);right:24px;bottom:16px}@media screen and (max-width: 1400px){.MJ_ybRP4{width:100%}.GRggPQ1r{width:100%}}@media screen and (max-width: 1024px){.MJ_ybRP4{width:100%}.GRggPQ1r{width:100%}}@media screen and (max-width: 500px){.I_bSx2lz{font:var(--font-s)}.kczfzBpH{font:var(--font-s)}.GRggPQ1r{font:var(--font-s)}}
+.SUTdvRvJ{font:var(--font-secondary);margin-bottom:8px}.TP9TAuvD{font:var(--font-l)}@media screen and (max-width: 1400px){.b3hIL01t{margin-right:80px}}@media screen and (max-width: 768px){.b3hIL01t{margin-right:40px;margin-bottom:29px}}@media screen and (max-width: 500px){.TP9TAuvD{font:var(--font-m)}}
+.b_aG7bzo{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:8px 16px 12px;width:426px;height:68px;background:var(--primary-color);border-radius:40px;border:none;font:var(--font-m);color:var(--button-font-color);cursor:pointer;transition:all .3s ease 0s}.b_aG7bzo:hover{background:var(--button-hover-color)}.b_aG7bzo:active{background:var(--button-pressed-color)}.b_aG7bzo:disabled{background:var(--button-disabled-color)}@media screen and (max-width: 1400px){.b_aG7bzo{margin-top:44px}}@media screen and (max-width: 500px){.b_aG7bzo{margin-top:44px;font:var(--font-s)}}
