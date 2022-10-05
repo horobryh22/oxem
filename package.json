@@ -1,13 +1,13 @@
 {
   "name": "oxem",
-  "homepage":"https://horobryh22.github.io/oxem",
+  "homepage": "https://horobryh22.github.io/oxem",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d build",
     "build": "webpack --env mode=production"
   },
   "keywords": [],
